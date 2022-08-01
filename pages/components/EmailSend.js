@@ -76,14 +76,14 @@ function EmailSend() {
               <path
                 d="M1 1.75L12.5 13.25"
                 stroke="#EC5D6D"
-                stroke-width="2"
-                stroke-linecap="round"
+                strokeWidth="2"
+                strokeLinecap="round"
               />
               <path
                 d="M1 13.25L12.5 1.75"
                 stroke="#EC5D6D"
-                stroke-width="2"
-                stroke-linecap="round"
+                strokeWidth="2"
+                strokeLinecap="round"
               />
             </svg>
 
@@ -103,9 +103,9 @@ function EmailSend() {
               <path
                 d="M1.5 5.5L6 11L16.5 1"
                 stroke="#3263F3"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
             <AnimatePresence>
