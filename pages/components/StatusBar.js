@@ -44,9 +44,9 @@ function StatusBar() {
           <motion.path
             d="M5.96631 52.9586L62.4753 6.00775L5.6717 79.0342L88.6706 15.7612L25.7733 101.991"
             stroke="white"
-            stroke-width="10.4146"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="10.4146"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             initial={{pathLength:0,opacity:0}}
             animate={{pathLength:1,opacity:1}}
             transition={{duration:1,delay:2}}
@@ -69,9 +69,9 @@ function StatusBar() {
           <motion.path
             d="M59 3L3 27"
             stroke="white"
-            stroke-width="5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             initial={{pathLength:0,opacity:0}}
             animate={{pathLength:1,opacity:1}}
             transition={{duration:1,delay:2}}
@@ -79,9 +79,9 @@ function StatusBar() {
           <path
             d="M57 13L22 28"
             stroke="white"
-            stroke-width="5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             initial={{pathLength:0,opacity:0}}
             animate={{pathLength:1,opacity:1}}
             transition={{duration:1,delay:2}}
