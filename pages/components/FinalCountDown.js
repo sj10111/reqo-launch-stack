@@ -7,7 +7,7 @@ function FinalCountDown() {
   let interval;
 
   const startTimer = () => {
-    const countDownDate = new Date("August 30, 2022").getTime();
+    const countDownDate = new Date("September 19, 2022").getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countDownDate - now;
