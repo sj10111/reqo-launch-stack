@@ -24,11 +24,13 @@ export default function Home() {
           opacity: 1,
           y: "-350%",
           scale: 1,
+          default:{ease:"easeInOut"}
         }}
         transition={{
           delay: 1,
-
-          default: { ease: "linear" },
+          duration:0.9
+          
+          
         }}
         className="w-screen justify-center flex"
       >
