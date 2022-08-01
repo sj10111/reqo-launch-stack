@@ -1,4 +1,3 @@
-
 import EmailSend from "./components/EmailSend";
 import FinalCountDown from "./components/FinalCountDown";
 import LoveAntstack from "./components/LoveAntstack";
@@ -20,11 +19,9 @@ export default function Home() {
         }}
         transition={{
           delay: 1,
-          
-default:{ease:"linear"}
 
+          default: { ease: "linear" },
         }}
-        
         className="w-screen justify-center flex"
       >
         <ReqoLogo />
@@ -46,11 +43,12 @@ default:{ease:"linear"}
       </motion.div>
 
       <motion.div
-      initial={{opacity:0 }}
-      animate={{opacity:1}}
-      transition={{delay:3}}
-       className="flex w-screen justify-center">
-      <FinalCountDown />
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 3 }}
+        className="flex w-screen justify-center"
+      >
+        <FinalCountDown />
       </motion.div>
       <motion.div
         initial={{
@@ -70,12 +68,12 @@ default:{ease:"linear"}
       <motion.div
         initial={{
           opacity: 0,
-          y:"200px"
+          y: "200px",
         }}
         animate={{
           opacity: 1,
         }}
-        transition={{delay:3}}
+        transition={{ delay: 3 }}
         className="w-screen justify-center flex"
       >
         <LoveAntstack />
