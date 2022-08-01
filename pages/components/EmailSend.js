@@ -53,7 +53,7 @@ function EmailSend() {
           onChange={(e) => {
             setEmail(e.target.value);
           }}
-          className="font-work-sans text-[18px]  w-[344px] outline-none bg-transparent border-b-2"
+          className="font-work-sans text-[18px]  w-[344px] outline-none focus:border-[#3263F3] bg-transparent border-b-2 transition-all duration-500"
           placeholder="Enter your E-mail"
         ></input>
         <motion.button

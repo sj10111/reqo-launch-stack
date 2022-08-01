@@ -39,7 +39,7 @@ function FinalCountDown() {
       <Fragment>
         <section>
           <section>
-            <div className="flex flex-row ">
+            <div className="flex flex-row  ">
               <section className="mx-5 justify-center items-center flex flex-col">
                 <p className="font-basic-sans text-[45px]">{timerDays}</p>
                 <p className="font-work-sans text-[12px]">Days</p>
@@ -53,7 +53,7 @@ function FinalCountDown() {
                 <p className="font-work-sans text-[12px]">Minutes</p>
               </section>
               <section className="mx-5 justify-center items-center flex flex-col">
-                <p className="font-basic-sans text-[45px]">{timerSeconds}</p>
+                <p className="font-basic-sans text-[45px] w-10">{timerSeconds}</p>
                 <p className="font-work-sans text-[12px]">Seconds</p>
               </section>
             </div>
