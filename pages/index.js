@@ -4,8 +4,16 @@ import LoveAntstack from "./components/LoveAntstack";
 import ReqoLogo from "./components/ReqoLogo";
 import StatusBar from "./components/StatusBar";
 import { motion } from "framer-motion";
+import Head from 'next/head'
+
 export default function Home() {
+
   return (
+   <>
+   <Head>
+    <title >Reqo</title>
+    <link className="w-2 h-2" rel="icon" href="selection.png"  />
+   </Head>
     <motion.div className="flex flex-col justify-center items-center w-screen h-screen">
       <motion.div
         initial={{
@@ -79,5 +87,6 @@ export default function Home() {
         <LoveAntstack />
       </motion.div>
     </motion.div>
+  </>
   );
 }
