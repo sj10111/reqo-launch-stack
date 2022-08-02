@@ -17,6 +17,7 @@
     "react-countdown": "^2.3.2",
     "react-dom": "18.2.0",
     "react-spring": "^9.5.2",
+    "tw-elements": "^1.0.0-alpha12",
     "validator": "^13.7.0"
   },
   "devDependencies": {
