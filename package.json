@@ -10,13 +10,10 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
-    "countdown": "^2.6.0",
     "framer-motion": "^6.5.1",
     "next": "12.2.3",
     "react": "18.2.0",
-    "react-countdown": "^2.3.2",
     "react-dom": "18.2.0",
-    "react-spring": "^9.5.2",
     "tw-elements": "^1.0.0-alpha12",
     "validator": "^13.7.0"
   },

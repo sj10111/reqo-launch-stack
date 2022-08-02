@@ -67,12 +67,12 @@ function EmailSend() {
             ref={form}
           />
           {loading ? (
-            <div class="flex mt-2 items-center justify-center w-[221px] h-[53px] ml-5 transition:all ">
+            <div className="flex mt-2 items-center justify-center w-[221px] h-[53px] ml-5 transition:all ">
               <div
-                class="spinner-border  text-[#3263F3] animate-spin inline-block w-4 h-4 border-2 rounded-full"
+                className="spinner-border  text-[#3263F3] animate-spin inline-block w-4 h-4 border-2 rounded-full"
                 role="status"
               >
-                <span class="visually-hidden"></span>
+                <span className="visually-hidden"></span>
               </div>
             </div>
           ) : (
@@ -88,12 +88,12 @@ function EmailSend() {
         (errorMessage ? (
           loading ? (
             <div>
-              <div class="flex mt-2 items-center">
+              <div className="flex mt-2 items-center">
                 <div
-                  class="spinner-border text-[#3263F3] animate-spin inline-block w-4 h-4 border-2 rounded-full"
+                  className="spinner-border text-[#3263F3] animate-spin inline-block w-4 h-4 border-2 rounded-full"
                   role="status"
                 >
-                  <span class="visually-hidden"></span>
+                  <span className="visually-hidden"></span>
                 </div>
               </div>
             </div>
