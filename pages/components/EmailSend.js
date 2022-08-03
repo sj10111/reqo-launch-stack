@@ -56,12 +56,12 @@ function EmailSend() {
       <div className="flex justify-center mb-2 sm:mb-0 sm:justify-start font-work-sans tracking-tighter text-[18px] ">
         Be the first to know when we go live
       </div>
-      <div className="flex  justify-center scale-75 sm:scale-100 ">
+      <div className="flex  justify-center  ">
         <form onSubmit={(e) => handleClick(e)} className="flex flex-col sm:flex-row justify-center transition-all duration-500 ">
           <input
             type="text"
             placeholder="Enter your Email"
-            className="font-work-sans text-[20px] sm:text-[18px]  w-[344px] outline-none focus:border-[#3263F3] bg-transparent border-b-2 transition-all duration-500 "
+            className="font-work-sans text-[20px] sm:text-[18px]  w-[261px] pb-2 sm:pb-0 sm:w-[344px] outline-none focus:border-[#3263F3] bg-transparent border-b-2 transition-all duration-500 "
             onChange={(e) => setEmail(e.target.value)}
             value={email}
             ref={form}

@@ -35,26 +35,26 @@ function FinalCountDown() {
     startTimer();
   });
   return (
-    <div className=" scale-75  sm:scale-100 -my-10 sm:m-0  ">
+    <div className="  -my-10 sm:m-0  ">
       <Fragment>
         <section>
           <section>
-            <div className="flex flex-row  ">
-              <section className="mx-5 justify-center items-center flex flex-col">
-                <p className="font-basic-sans text-[45px]">{timerDays}</p>
-                <p className="font-work-sans text-[12px]">Days</p>
+            <div className="flex flex-row tracking-tighter  ">
+              <section className="mx-5  justify-center items-center flex flex-col">
+                <p className="font-basic-sans text-[28px] font-semibold sm:font-normal sm:text-[45px]">{timerDays}</p>
+                <p className="font-work-sans font-semibold sm:font-normal text-[12px]">Days</p>
               </section>
               <section className="mx-5 justify-center items-center flex flex-col">
-                <p className="font-basic-sans text-[45px]">{timerHours}</p>
-                <p className="font-work-sans text-[12px]">Hours</p>
+                <p className="font-basic-sans text-[28px] font-semibold sm:font-normal sm:text-[45px]">{timerHours}</p>
+                <p className="font-work-sans font-semibold sm:font-normal text-[12px]">Hours</p>
               </section>
               <section className="mx-5 justify-center items-center flex flex-col">
-                <p className="font-basic-sans text-[45px]">{timerMinutes}</p>
-                <p className="font-work-sans text-[12px]">Minutes</p>
+                <p className="font-basic-sans text-[28px] font-semibold sm:font-normal sm:text-[45px]">{timerMinutes}</p>
+                <p className="font-work-sans font-semibold sm:font-normal text-[12px]">Minutes</p>
               </section>
               <section className="mx-5 justify-center items-center flex flex-col">
-                <p className="font-basic-sans text-[45px] w-10">{timerSeconds}</p>
-                <p className="font-work-sans text-[12px]">Seconds</p>
+                <p className="font-basic-sans text-[28px] font-semibold sm:font-normal sm:text-[45px] ">{timerSeconds}</p>
+                <p className="font-work-sans font-semibold sm:font-normal text-[12px]">Seconds</p>
               </section>
             </div>
           </section>
