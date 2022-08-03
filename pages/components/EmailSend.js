@@ -53,14 +53,14 @@ function EmailSend() {
   }
   return (
     <div className="flex fixed  flex-col ">
-      <div className="flex justify-center mb-2 sm:mb-0 sm:justify-start font-work-sans tracking-tighter text-[18px] ">
+      <div className="flex justify-center font-normal mb-2 sm:mb-0 sm:justify-start font-work-sans tracking-tighter text-[18px] ">
         Be the first to know when we go live
       </div>
       <div className="flex  justify-center  ">
         <form onSubmit={(e) => handleClick(e)} className="flex flex-col sm:flex-row justify-center transition-all duration-500 ">
           <input
             type="text"
-            placeholder="Enter your Email"
+            placeholder="Enter Email"
             className="font-work-sans text-[20px] sm:text-[18px]  w-[261px] pb-2 sm:pb-0 sm:w-[344px] outline-none focus:border-[#3263F3] bg-transparent border-b-2 transition-all duration-500 "
             onChange={(e) => setEmail(e.target.value)}
             value={email}
@@ -79,7 +79,7 @@ function EmailSend() {
             <input
               type="submit"
               value="Notify me"
-              className="bg-[#3263F3] w-[221px] active:scale-105 h-[53px] text-white font-basic-sans rounded-[24px] mx-auto mt-5 sm:ml-5 sm:mt-0 hover:bg-[#1041D0] hover:shadow-md transition-all"
+              className="bg-[#3263F3] w-[175px] sm:w-[221px] text-[18px] active:scale-105 h-[42px] sm:h-[53px] text-white font-basic-sans rounded-[24px] mx-auto mt-5 sm:ml-5 sm:mt-0 hover:bg-[#1041D0] hover:shadow-md transition-all"
             />
           )}
         </form>
@@ -98,7 +98,7 @@ function EmailSend() {
               </div>
             </div>
           ) : (
-            <motion.div className="font-work-sans flex items-center mx-auto sm:mx-0  sm:mt-4 text-[#3263F3]">
+            <motion.div className="font-work-sans flex items-center mx-auto sm:mx-0 mt-4 sm:mt-4 text-[#3263F3]">
               <svg
                 width="14"
                 height="15"
