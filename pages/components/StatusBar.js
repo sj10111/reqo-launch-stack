@@ -3,8 +3,8 @@ import {motion} from 'framer-motion'
 
 function StatusBar() {
   return (
-    <div className="bg-[#FFDC61] w-[789px]  fixed h-[126px] rounded-[49px] flex justify-center items-center">
-      <div className=" absolute left-[150px] -z-10 ">
+    <div className="bg-[#FFDC61] scale-[45%] sm:scale-100 w-[789px] transition-all sclae  fixed h-[126px] rounded-[49px] duration-500 flex justify-center items-center">
+      <div className=" absolute  transition-all duration-500  left-[150px] -z-10 ">
         <div className="absolute top-[px]">
           <svg
             width="47"
@@ -55,7 +55,7 @@ function StatusBar() {
           />
         </svg>
       </div>
-      <div className="text-[48px] mt-1 font-basic-sans tracking-tighter font-[500]">
+      <div className=" transition-all duration-500 text-[48px] mt-1 font-basic-sans tracking-tighter font-[500]">
         We’re launching soon.
       </div>
       <div className="absolute left-[563px] top-[71px] z-[-10]">

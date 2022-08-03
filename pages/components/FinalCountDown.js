@@ -7,7 +7,7 @@ function FinalCountDown() {
   let interval;
 
   const startTimer = () => {
-    const countDownDate = new Date("September 19, 2022").getTime();
+    const countDownDate = new Date("September 30, 2022").getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countDownDate - now;
@@ -35,7 +35,7 @@ function FinalCountDown() {
     startTimer();
   });
   return (
-    <div>
+    <div className=" scale-75  sm:scale-100 -my-10 sm:m-0  ">
       <Fragment>
         <section>
           <section>

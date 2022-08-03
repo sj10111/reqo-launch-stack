@@ -11,10 +11,11 @@ export default function Home() {
   return (
    <>
    <Head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title >Reqo</title>
     <link className="w-2 h-2" rel="icon" href="selection.png"  />
    </Head>
-    <motion.div className="flex flex-col justify-center items-center w-screen h-screen">
+    <motion.div className="flex flex-col justify-center -mt-9 sm:m-0 items-center w-[100vw] h-[100vh]">
       <motion.div
         initial={{
           y: "50%",

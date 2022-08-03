@@ -2,7 +2,7 @@ import React from "react";
 
 function LoveAntstack() {
   return (
-    <div className="flex justify-center items-center font-poppins    text-[#3263F3] tracking-widest">
+    <div className="flex justify-center mt-16 sm:mt-0 items-center font-poppins  scale-75 sm:scale-100   text-[#3263F3] tracking-widest">
       Made with
       <div>
         <svg className="ml-2 mr-2"
