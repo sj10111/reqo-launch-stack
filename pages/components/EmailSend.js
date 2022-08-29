@@ -13,7 +13,7 @@ function EmailSend() {
   });
   var config = {
     method: "post",
-    url: "https://qzf18t26tk.execute-api.ap-south-1.amazonaws.com/Prod/email",
+    url: "https://sj1537i48j.execute-api.ap-south-1.amazonaws.com/Prod/email",
     headers: {
       "Content-Type": "application/json",
     },
