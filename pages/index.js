@@ -1,5 +1,5 @@
 import EmailSend from "./components/EmailSend";
-import FinalCountDown from "./components/FinalCountDown";
+
 import LoveAntstack from "./components/LoveAntstack";
 import ReqoLogo from "./components/ReqoLogo";
 import StatusBar from "./components/StatusBar";
@@ -59,7 +59,7 @@ export default function Home() {
         transition={{ delay: 3 }}
         className="flex w-screen justify-center"
       >
-        <FinalCountDown />
+      
       </motion.div>
       <motion.div
         initial={{
